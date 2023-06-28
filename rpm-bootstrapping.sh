@@ -16,7 +16,7 @@ echo "Python 3.9 Installing... "
 echo "Installation will take 5-10mins as the binaries are compied from source"
 sleep 3
 sudo yum  -y groupinstall 'development tools'
-sudo yum -y install wget openssl-devel bzip2-devel libffi-devel
+sudo yum -y install wget openssl-devel bzip2-devel libffi-devel net-tools bind-tools telnet
 sudo curl https://www.python.org/ftp/python/3.10.0/Python-3.10.0.tgz -O
 tar -xvf Python-3.10.0.tgz
 cd Python-3.10.0
